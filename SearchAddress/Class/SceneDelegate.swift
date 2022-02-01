@@ -19,6 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
 
         self.window = UIWindow(windowScene: scene)
+        RootRouter.createRootModule(window: self.window)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SouthWestAddressCell" rowHeight="32" id="BNa-vw-y6o" customClass="SouthWestAddressCell" customModule="PizzaConsumerAddress" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="32"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BNa-vw-y6o" id="8pr-W2-gOI">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="32"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="南" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYH-SC-0gN">
+                        <rect key="frame" x="12" y="5.5" width="17.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FDl-Uo-a0i">
+                        <rect key="frame" x="41.5" y="4" width="154.5" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
+                        <connections>
+                            <outlet property="delegate" destination="BNa-vw-y6o" id="0FL-UV-Cl5"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <color key="backgroundColor" name="background_color"/>
+                <constraints>
+                    <constraint firstItem="FDl-Uo-a0i" firstAttribute="top" secondItem="8pr-W2-gOI" secondAttribute="top" constant="4" id="8Xj-kp-BgO"/>
+                    <constraint firstAttribute="trailing" secondItem="FDl-Uo-a0i" secondAttribute="trailing" constant="4" id="8wQ-6M-gBn"/>
+                    <constraint firstItem="sYH-SC-0gN" firstAttribute="centerY" secondItem="8pr-W2-gOI" secondAttribute="centerY" id="J2i-XP-Jvz"/>
+                    <constraint firstAttribute="bottom" secondItem="FDl-Uo-a0i" secondAttribute="bottom" constant="4" id="aP3-I9-Zsv"/>
+                    <constraint firstItem="sYH-SC-0gN" firstAttribute="leading" secondItem="8pr-W2-gOI" secondAttribute="leading" constant="12" id="ine-q0-KQs"/>
+                    <constraint firstItem="FDl-Uo-a0i" firstAttribute="leading" secondItem="sYH-SC-0gN" secondAttribute="trailing" constant="12" id="ybn-zb-eIr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="textField" destination="FDl-Uo-a0i" id="tSb-wq-jww"/>
+                <outlet property="titleLabel" destination="sYH-SC-0gN" id="Q39-cG-NvN"/>
+            </connections>
+            <point key="canvasLocation" x="282.60869565217394" y="-43.526785714285715"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="background_color">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

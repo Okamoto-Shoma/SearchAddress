@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddressListCell" rowHeight="119" id="wDQ-W0-chD" customClass="AddressListCell" customModule="PizzaConsumerAddress" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wDQ-W0-chD" id="gjh-1O-hBB">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北海 太郎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWS-kh-cv1">
+                        <rect key="frame" x="16" y="49" width="74" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="住所1: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kj9-n8-dnd">
+                        <rect key="frame" x="155" y="12" width="52" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="住所2: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmo-bV-Rrq">
+                        <rect key="frame" x="155" y="37" width="53.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="建物名: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8za-H4-oYe">
+                        <rect key="frame" x="155" y="62" width="61" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="部屋番号: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUX-by-eaB">
+                        <rect key="frame" x="155" y="87" width="78.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAu-6c-iPd">
+                        <rect key="frame" x="211" y="15.5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKa-VW-iff">
+                        <rect key="frame" x="212.5" y="40.5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="k6t-zE-aU8">
+                        <rect key="frame" x="220" y="65.5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DrC-Cw-yTJ">
+                        <rect key="frame" x="237.5" y="90.5" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kmo-bV-Rrq" firstAttribute="top" secondItem="kj9-n8-dnd" secondAttribute="bottomMargin" constant="12" id="5tB-aM-sKf"/>
+                    <constraint firstItem="8za-H4-oYe" firstAttribute="top" secondItem="kmo-bV-Rrq" secondAttribute="bottom" constant="4" id="FRy-RV-VTS"/>
+                    <constraint firstItem="TAu-6c-iPd" firstAttribute="centerY" secondItem="kj9-n8-dnd" secondAttribute="centerY" id="G6G-8y-NGi"/>
+                    <constraint firstItem="DrC-Cw-yTJ" firstAttribute="leading" secondItem="qUX-by-eaB" secondAttribute="trailing" constant="4" id="LQr-kd-UaK"/>
+                    <constraint firstItem="vWS-kh-cv1" firstAttribute="centerY" secondItem="gjh-1O-hBB" secondAttribute="centerY" id="M5X-RF-Osg"/>
+                    <constraint firstItem="kmo-bV-Rrq" firstAttribute="leading" secondItem="kj9-n8-dnd" secondAttribute="leading" id="PF5-Su-IGx"/>
+                    <constraint firstItem="k6t-zE-aU8" firstAttribute="leading" secondItem="8za-H4-oYe" secondAttribute="trailing" constant="4" id="Qff-pH-Y7j"/>
+                    <constraint firstItem="kKa-VW-iff" firstAttribute="leading" secondItem="kmo-bV-Rrq" secondAttribute="trailing" constant="4" id="Uxy-Ax-onW"/>
+                    <constraint firstItem="qUX-by-eaB" firstAttribute="leading" secondItem="kj9-n8-dnd" secondAttribute="leading" id="XTI-BQ-sSa"/>
+                    <constraint firstItem="kKa-VW-iff" firstAttribute="centerY" secondItem="kmo-bV-Rrq" secondAttribute="centerY" id="Xfg-tZ-X6X"/>
+                    <constraint firstItem="DrC-Cw-yTJ" firstAttribute="centerY" secondItem="qUX-by-eaB" secondAttribute="centerY" id="a2E-dB-cib"/>
+                    <constraint firstItem="k6t-zE-aU8" firstAttribute="centerY" secondItem="8za-H4-oYe" secondAttribute="centerY" id="dcc-Tb-Hme"/>
+                    <constraint firstItem="8za-H4-oYe" firstAttribute="leading" secondItem="kj9-n8-dnd" secondAttribute="leading" id="eZm-3a-1rJ"/>
+                    <constraint firstItem="TAu-6c-iPd" firstAttribute="leading" secondItem="kj9-n8-dnd" secondAttribute="trailing" constant="4" id="iej-gy-nLh"/>
+                    <constraint firstItem="kj9-n8-dnd" firstAttribute="top" secondItem="gjh-1O-hBB" secondAttribute="top" constant="12" id="ilP-f6-upa"/>
+                    <constraint firstItem="kj9-n8-dnd" firstAttribute="trailing" secondItem="gjh-1O-hBB" secondAttribute="centerX" id="mlg-e9-AMV"/>
+                    <constraint firstItem="vWS-kh-cv1" firstAttribute="leading" secondItem="gjh-1O-hBB" secondAttribute="leading" constant="16" id="pWw-kr-NZy"/>
+                    <constraint firstItem="qUX-by-eaB" firstAttribute="top" secondItem="8za-H4-oYe" secondAttribute="bottom" constant="4" id="vtI-uc-FVE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buildingNameLabel" destination="k6t-zE-aU8" id="W5X-in-KfT"/>
+                <outlet property="firstAddressLabel" destination="TAu-6c-iPd" id="kcF-9p-dra"/>
+                <outlet property="roomNumberLabel" destination="DrC-Cw-yTJ" id="qys-gk-tpX"/>
+                <outlet property="secondAddressLabel" destination="kKa-VW-iff" id="RF2-gw-DVr"/>
+                <outlet property="titleLabel" destination="vWS-kh-cv1" id="y49-0Z-eeJ"/>
+            </connections>
+            <point key="canvasLocation" x="224.63768115942031" y="98.772321428571431"/>
+        </tableViewCell>
+    </objects>
+</document>

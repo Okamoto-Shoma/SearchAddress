@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="PizzaConsumerAddress" customModuleProvider="target">
+            <connections>
+                <outlet property="addressListButton" destination="FeM-4P-Z4O" id="JtQ-3x-7L1"/>
+                <outlet property="addressListLabel" destination="S2b-UI-kgN" id="U7E-Mh-EtF"/>
+                <outlet property="newAddressButton" destination="jK6-WA-TJn" id="qAo-w6-xV6"/>
+                <outlet property="newAddressLabel" destination="Gwh-sg-qaE" id="anq-gC-h0x"/>
+                <outlet property="view" destination="iN0-l3-epB" id="gAu-t6-Dd7"/>
+                <outletCollection property="buttons" destination="FeM-4P-Z4O" collectionClass="NSMutableArray" id="vKa-uk-A7g"/>
+                <outletCollection property="buttons" destination="jK6-WA-TJn" collectionClass="NSMutableArray" id="FJy-Gu-VAy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeM-4P-Z4O">
+                    <rect key="frame" x="41.5" y="493" width="331" height="248"/>
+                    <color key="backgroundColor" name="button_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FeM-4P-Z4O" secondAttribute="height" multiplier="2:1.5" id="IzA-Mn-3XS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="住所一覧">
+                        <color key="titleColor" name="button_label_color"/>
+                    </state>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="addressListButtonTapped:" destination="-1" eventType="touchUpInside" id="lAK-2a-9hE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jK6-WA-TJn">
+                    <rect key="frame" x="41.5" y="155" width="331" height="248"/>
+                    <color key="backgroundColor" name="button_color"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="newRegistrationButtonTapped:" destination="-1" eventType="touchUpInside" id="bYK-Ph-53B"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新規登録" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwh-sg-qaE">
+                    <rect key="frame" x="126.5" y="255" width="161" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" name="button_label_color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="住所一覧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2b-UI-kgN">
+                    <rect key="frame" x="126.5" y="593" width="161" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" name="button_label_color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="background_color"/>
+            <constraints>
+                <constraint firstItem="FeM-4P-Z4O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="1.1" id="10c-Im-JcI"/>
+                <constraint firstItem="FeM-4P-Z4O" firstAttribute="width" secondItem="jK6-WA-TJn" secondAttribute="width" id="1yJ-YU-wol"/>
+                <constraint firstItem="Gwh-sg-qaE" firstAttribute="centerY" secondItem="jK6-WA-TJn" secondAttribute="centerY" id="ADL-0J-i1w"/>
+                <constraint firstItem="FeM-4P-Z4O" firstAttribute="height" secondItem="jK6-WA-TJn" secondAttribute="height" id="F0H-yQ-D0H"/>
+                <constraint firstItem="jK6-WA-TJn" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.9" id="IQn-e0-AjQ"/>
+                <constraint firstItem="FeM-4P-Z4O" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VS5-rM-AcD"/>
+                <constraint firstItem="S2b-UI-kgN" firstAttribute="centerX" secondItem="FeM-4P-Z4O" secondAttribute="centerX" id="bbY-U0-c6p"/>
+                <constraint firstItem="jK6-WA-TJn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="iKi-oY-fuK"/>
+                <constraint firstItem="FeM-4P-Z4O" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="nGQ-Vz-RmF"/>
+                <constraint firstItem="S2b-UI-kgN" firstAttribute="centerY" secondItem="FeM-4P-Z4O" secondAttribute="centerY" id="qaR-90-DUd"/>
+                <constraint firstItem="Gwh-sg-qaE" firstAttribute="centerX" secondItem="jK6-WA-TJn" secondAttribute="centerX" id="umZ-Y8-f9J"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="130"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="background_color">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="button_color">
+            <color red="0.94117647058823528" green="0.90588235294117647" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="button_label_color">
+            <color red="0.58431372549019611" green="0.46666666666666667" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

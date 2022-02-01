@@ -7,14 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C078C729447BD964B871572B /* Pods_SearchAddress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356DC524C35E1B55BC2E3F5E /* Pods_SearchAddress.framework */; };
 		C12F923F27A934B6009F3C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F923E27A934B6009F3C47 /* AppDelegate.swift */; };
 		C12F924127A934B6009F3C47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F924027A934B6009F3C47 /* SceneDelegate.swift */; };
-		C12F924327A934B6009F3C47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F924227A934B6009F3C47 /* ViewController.swift */; };
-		C12F924627A934B6009F3C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12F924427A934B6009F3C47 /* Main.storyboard */; };
 		C12F924827A934B8009F3C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12F924727A934B8009F3C47 /* Assets.xcassets */; };
 		C12F924B27A934B8009F3C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12F924927A934B8009F3C47 /* LaunchScreen.storyboard */; };
 		C12F92F727A93A62009F3C47 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F92F627A93A62009F3C47 /* R.generated.swift */; };
+		C12F937227A93C48009F3C47 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F932827A93C48009F3C47 /* HomePresenter.swift */; };
+		C12F937327A93C48009F3C47 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12F932A27A93C48009F3C47 /* HomeViewController.xib */; };
+		C12F937427A93C48009F3C47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F932B27A93C48009F3C47 /* HomeViewController.swift */; };
+		C12F937527A93C48009F3C47 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F932D27A93C48009F3C47 /* HomeProtocols.swift */; };
+		C12F937627A93C48009F3C47 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F932F27A93C48009F3C47 /* HomeInteractor.swift */; };
+		C12F937727A93C48009F3C47 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F933127A93C48009F3C47 /* HomeRouter.swift */; };
+		C12F937827A93C48009F3C47 /* AddressRegistrationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F933427A93C48009F3C47 /* AddressRegistrationRouter.swift */; };
+		C12F937927A93C48009F3C47 /* AddressRegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F933627A93C48009F3C47 /* AddressRegistrationPresenter.swift */; };
+		C12F937A27A93C48009F3C47 /* AddressRegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12F933827A93C48009F3C47 /* AddressRegistrationViewController.xib */; };
+		C12F937B27A93C48009F3C47 /* AddressRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F933927A93C48009F3C47 /* AddressRegistrationViewController.swift */; };
+		C12F937C27A93C48009F3C47 /* AddressRegistrationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F933B27A93C48009F3C47 /* AddressRegistrationProtocols.swift */; };
+		C12F937D27A93C48009F3C47 /* AddressRegistrationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F933D27A93C48009F3C47 /* AddressRegistrationInteractor.swift */; };
+		C12F937E27A93C48009F3C47 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934027A93C48009F3C47 /* MapInteractor.swift */; };
+		C12F937F27A93C48009F3C47 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934227A93C48009F3C47 /* MapPresenter.swift */; };
+		C12F938027A93C48009F3C47 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934427A93C48009F3C47 /* MapViewController.swift */; };
+		C12F938127A93C48009F3C47 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12F934527A93C48009F3C47 /* MapViewController.xib */; };
+		C12F938227A93C48009F3C47 /* MapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934727A93C48009F3C47 /* MapProtocols.swift */; };
+		C12F938327A93C48009F3C47 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934927A93C48009F3C47 /* MapRouter.swift */; };
+		C12F938427A93C48009F3C47 /* AddressListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934C27A93C48009F3C47 /* AddressListPresenter.swift */; };
+		C12F938527A93C48009F3C47 /* AddressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F934E27A93C48009F3C47 /* AddressListViewController.swift */; };
+		C12F938627A93C48009F3C47 /* AddressListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12F934F27A93C48009F3C47 /* AddressListViewController.xib */; };
+		C12F938727A93C48009F3C47 /* AddressListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F935127A93C48009F3C47 /* AddressListProtocol.swift */; };
+		C12F938827A93C48009F3C47 /* AddressListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F935327A93C48009F3C47 /* AddressListInteractor.swift */; };
+		C12F938927A93C48009F3C47 /* AddressListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F935527A93C48009F3C47 /* AddressListRouter.swift */; };
+		C12F938A27A93C48009F3C47 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F935727A93C48009F3C47 /* RootRouter.swift */; };
+		C12F938B27A93C48009F3C47 /* AddressListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F935927A93C48009F3C47 /* AddressListCell.swift */; };
+		C12F938C27A93C48009F3C47 /* AddressListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12F935A27A93C48009F3C47 /* AddressListCell.xib */; };
+		C12F938D27A93C48009F3C47 /* SouthWestAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12F935B27A93C48009F3C47 /* SouthWestAddressCell.xib */; };
+		C12F938E27A93C48009F3C47 /* SouthWestAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F935C27A93C48009F3C47 /* SouthWestAddressCell.swift */; };
+		C12F938F27A93C48009F3C47 /* AddressIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936027A93C48009F3C47 /* AddressIdModel.swift */; };
+		C12F939027A93C48009F3C47 /* AddressListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936127A93C48009F3C47 /* AddressListModel.swift */; };
+		C12F939127A93C48009F3C47 /* CellContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936227A93C48009F3C47 /* CellContents.swift */; };
+		C12F939227A93C48009F3C47 /* RealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936427A93C48009F3C47 /* RealmOperator.swift */; };
+		C12F939327A93C48009F3C47 /* RealmOperatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936627A93C48009F3C47 /* RealmOperatorProtocol.swift */; };
+		C12F939427A93C48009F3C47 /* AddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936827A93C48009F3C47 /* AddressType.swift */; };
+		C12F939527A93C48009F3C47 /* SearchServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936B27A93C48009F3C47 /* SearchServiceProtocol.swift */; };
+		C12F939627A93C48009F3C47 /* AddressServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936C27A93C48009F3C47 /* AddressServiceProtocol.swift */; };
+		C12F939727A93C48009F3C47 /* AddressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936D27A93C48009F3C47 /* AddressService.swift */; };
+		C12F939827A93C48009F3C47 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F936E27A93C48009F3C47 /* SearchService.swift */; };
+		C12F939927A93C48009F3C47 /* AddressListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F937027A93C48009F3C47 /* AddressListObject.swift */; };
+		C12F939A27A93C48009F3C47 /* AddressIdObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F937127A93C48009F3C47 /* AddressIdObject.swift */; };
+		C12F93A327A93CA6009F3C47 /* UIViewController+TransitionCrossDissolve.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F939D27A93CA6009F3C47 /* UIViewController+TransitionCrossDissolve.swift */; };
+		C12F93A427A93CA6009F3C47 /* UIButton+CAGradationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F939E27A93CA6009F3C47 /* UIButton+CAGradationLayer.swift */; };
+		C12F93A527A93CA6009F3C47 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F93A027A93CA6009F3C47 /* Const.swift */; };
+		C12F93A627A93CA6009F3C47 /* Const+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F93A127A93CA6009F3C47 /* Const+Int.swift */; };
+		C12F93A727A93CA6009F3C47 /* Const+Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F93A227A93CA6009F3C47 /* Const+Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +67,56 @@
 		C12F923B27A934B6009F3C47 /* SearchAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12F923E27A934B6009F3C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C12F924027A934B6009F3C47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C12F924227A934B6009F3C47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C12F924527A934B6009F3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C12F924727A934B8009F3C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12F924A27A934B8009F3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12F924C27A934B8009F3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C12F92F627A93A62009F3C47 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		C12F932827A93C48009F3C47 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C12F932A27A93C48009F3C47 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C12F932B27A93C48009F3C47 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C12F932D27A93C48009F3C47 /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C12F932F27A93C48009F3C47 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C12F933127A93C48009F3C47 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C12F933427A93C48009F3C47 /* AddressRegistrationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRegistrationRouter.swift; sourceTree = "<group>"; };
+		C12F933627A93C48009F3C47 /* AddressRegistrationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRegistrationPresenter.swift; sourceTree = "<group>"; };
+		C12F933827A93C48009F3C47 /* AddressRegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressRegistrationViewController.xib; sourceTree = "<group>"; };
+		C12F933927A93C48009F3C47 /* AddressRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRegistrationViewController.swift; sourceTree = "<group>"; };
+		C12F933B27A93C48009F3C47 /* AddressRegistrationProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRegistrationProtocols.swift; sourceTree = "<group>"; };
+		C12F933D27A93C48009F3C47 /* AddressRegistrationInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressRegistrationInteractor.swift; sourceTree = "<group>"; };
+		C12F934027A93C48009F3C47 /* MapInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		C12F934227A93C48009F3C47 /* MapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		C12F934427A93C48009F3C47 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C12F934527A93C48009F3C47 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		C12F934727A93C48009F3C47 /* MapProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapProtocols.swift; sourceTree = "<group>"; };
+		C12F934927A93C48009F3C47 /* MapRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		C12F934C27A93C48009F3C47 /* AddressListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListPresenter.swift; sourceTree = "<group>"; };
+		C12F934E27A93C48009F3C47 /* AddressListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListViewController.swift; sourceTree = "<group>"; };
+		C12F934F27A93C48009F3C47 /* AddressListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressListViewController.xib; sourceTree = "<group>"; };
+		C12F935127A93C48009F3C47 /* AddressListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListProtocol.swift; sourceTree = "<group>"; };
+		C12F935327A93C48009F3C47 /* AddressListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListInteractor.swift; sourceTree = "<group>"; };
+		C12F935527A93C48009F3C47 /* AddressListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListRouter.swift; sourceTree = "<group>"; };
+		C12F935727A93C48009F3C47 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		C12F935927A93C48009F3C47 /* AddressListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListCell.swift; sourceTree = "<group>"; };
+		C12F935A27A93C48009F3C47 /* AddressListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressListCell.xib; sourceTree = "<group>"; };
+		C12F935B27A93C48009F3C47 /* SouthWestAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SouthWestAddressCell.xib; sourceTree = "<group>"; };
+		C12F935C27A93C48009F3C47 /* SouthWestAddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SouthWestAddressCell.swift; sourceTree = "<group>"; };
+		C12F936027A93C48009F3C47 /* AddressIdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressIdModel.swift; sourceTree = "<group>"; };
+		C12F936127A93C48009F3C47 /* AddressListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListModel.swift; sourceTree = "<group>"; };
+		C12F936227A93C48009F3C47 /* CellContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellContents.swift; sourceTree = "<group>"; };
+		C12F936427A93C48009F3C47 /* RealmOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmOperator.swift; sourceTree = "<group>"; };
+		C12F936627A93C48009F3C47 /* RealmOperatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmOperatorProtocol.swift; sourceTree = "<group>"; };
+		C12F936827A93C48009F3C47 /* AddressType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressType.swift; sourceTree = "<group>"; };
+		C12F936B27A93C48009F3C47 /* SearchServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchServiceProtocol.swift; sourceTree = "<group>"; };
+		C12F936C27A93C48009F3C47 /* AddressServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressServiceProtocol.swift; sourceTree = "<group>"; };
+		C12F936D27A93C48009F3C47 /* AddressService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressService.swift; sourceTree = "<group>"; };
+		C12F936E27A93C48009F3C47 /* SearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		C12F937027A93C48009F3C47 /* AddressListObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressListObject.swift; sourceTree = "<group>"; };
+		C12F937127A93C48009F3C47 /* AddressIdObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressIdObject.swift; sourceTree = "<group>"; };
+		C12F939D27A93CA6009F3C47 /* UIViewController+TransitionCrossDissolve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TransitionCrossDissolve.swift"; sourceTree = "<group>"; };
+		C12F939E27A93CA6009F3C47 /* UIButton+CAGradationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+CAGradationLayer.swift"; sourceTree = "<group>"; };
+		C12F93A027A93CA6009F3C47 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C12F93A127A93CA6009F3C47 /* Const+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Const+Int.swift"; sourceTree = "<group>"; };
+		C12F93A227A93CA6009F3C47 /* Const+Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Const+Word.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C078C729447BD964B871572B /* Pods_SearchAddress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,15 +169,387 @@
 			isa = PBXGroup;
 			children = (
 				C12F92F627A93A62009F3C47 /* R.generated.swift */,
-				C12F924227A934B6009F3C47 /* ViewController.swift */,
-				C12F923E27A934B6009F3C47 /* AppDelegate.swift */,
-				C12F924027A934B6009F3C47 /* SceneDelegate.swift */,
-				C12F924427A934B6009F3C47 /* Main.storyboard */,
-				C12F924727A934B8009F3C47 /* Assets.xcassets */,
-				C12F924927A934B8009F3C47 /* LaunchScreen.storyboard */,
-				C12F924C27A934B8009F3C47 /* Info.plist */,
+				C12F939B27A93CA6009F3C47 /* Util */,
+				C12F932427A93C32009F3C47 /* Class */,
+				C12F932127A93B9F009F3C47 /* Resource */,
 			);
 			path = SearchAddress;
+			sourceTree = "<group>";
+		};
+		C12F932127A93B9F009F3C47 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C12F924927A934B8009F3C47 /* LaunchScreen.storyboard */,
+				C12F924727A934B8009F3C47 /* Assets.xcassets */,
+				C12F924C27A934B8009F3C47 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C12F932427A93C32009F3C47 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C12F923E27A934B6009F3C47 /* AppDelegate.swift */,
+				C12F924027A934B6009F3C47 /* SceneDelegate.swift */,
+				C12F935D27A93C48009F3C47 /* Model */,
+				C12F932527A93C48009F3C47 /* Module */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C12F932527A93C48009F3C47 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935627A93C48009F3C47 /* Root */,
+				C12F935827A93C48009F3C47 /* CustomView */,
+				C12F932627A93C48009F3C47 /* Home */,
+				C12F933227A93C48009F3C47 /* AddressRegistration */,
+				C12F933E27A93C48009F3C47 /* Map */,
+				C12F934A27A93C48009F3C47 /* AddressList */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C12F932627A93C48009F3C47 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C12F932727A93C48009F3C47 /* Presenter */,
+				C12F932927A93C48009F3C47 /* View */,
+				C12F932C27A93C48009F3C47 /* Protocols */,
+				C12F932E27A93C48009F3C47 /* Interactor */,
+				C12F933027A93C48009F3C47 /* Router */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C12F932727A93C48009F3C47 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C12F932827A93C48009F3C47 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C12F932927A93C48009F3C47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12F932A27A93C48009F3C47 /* HomeViewController.xib */,
+				C12F932B27A93C48009F3C47 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12F932C27A93C48009F3C47 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C12F932D27A93C48009F3C47 /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C12F932E27A93C48009F3C47 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C12F932F27A93C48009F3C47 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C12F933027A93C48009F3C47 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933127A93C48009F3C47 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C12F933227A93C48009F3C47 /* AddressRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933327A93C48009F3C47 /* Rotuer */,
+				C12F933527A93C48009F3C47 /* Presenter */,
+				C12F933727A93C48009F3C47 /* View */,
+				C12F933A27A93C48009F3C47 /* Protocols */,
+				C12F933C27A93C48009F3C47 /* Interactor */,
+			);
+			path = AddressRegistration;
+			sourceTree = "<group>";
+		};
+		C12F933327A93C48009F3C47 /* Rotuer */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933427A93C48009F3C47 /* AddressRegistrationRouter.swift */,
+			);
+			path = Rotuer;
+			sourceTree = "<group>";
+		};
+		C12F933527A93C48009F3C47 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933627A93C48009F3C47 /* AddressRegistrationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C12F933727A93C48009F3C47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933827A93C48009F3C47 /* AddressRegistrationViewController.xib */,
+				C12F933927A93C48009F3C47 /* AddressRegistrationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12F933A27A93C48009F3C47 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933B27A93C48009F3C47 /* AddressRegistrationProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C12F933C27A93C48009F3C47 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933D27A93C48009F3C47 /* AddressRegistrationInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C12F933E27A93C48009F3C47 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C12F933F27A93C48009F3C47 /* Inateractor */,
+				C12F934127A93C48009F3C47 /* Presenter */,
+				C12F934327A93C48009F3C47 /* View */,
+				C12F934627A93C48009F3C47 /* Protocols */,
+				C12F934827A93C48009F3C47 /* Router */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C12F933F27A93C48009F3C47 /* Inateractor */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934027A93C48009F3C47 /* MapInteractor.swift */,
+			);
+			path = Inateractor;
+			sourceTree = "<group>";
+		};
+		C12F934127A93C48009F3C47 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934227A93C48009F3C47 /* MapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C12F934327A93C48009F3C47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934427A93C48009F3C47 /* MapViewController.swift */,
+				C12F934527A93C48009F3C47 /* MapViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12F934627A93C48009F3C47 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934727A93C48009F3C47 /* MapProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C12F934827A93C48009F3C47 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934927A93C48009F3C47 /* MapRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C12F934A27A93C48009F3C47 /* AddressList */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934B27A93C48009F3C47 /* Presenter */,
+				C12F934D27A93C48009F3C47 /* View */,
+				C12F935027A93C48009F3C47 /* Protocols */,
+				C12F935227A93C48009F3C47 /* Interactor */,
+				C12F935427A93C48009F3C47 /* Router */,
+			);
+			path = AddressList;
+			sourceTree = "<group>";
+		};
+		C12F934B27A93C48009F3C47 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934C27A93C48009F3C47 /* AddressListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C12F934D27A93C48009F3C47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C12F934E27A93C48009F3C47 /* AddressListViewController.swift */,
+				C12F934F27A93C48009F3C47 /* AddressListViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12F935027A93C48009F3C47 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935127A93C48009F3C47 /* AddressListProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C12F935227A93C48009F3C47 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935327A93C48009F3C47 /* AddressListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C12F935427A93C48009F3C47 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935527A93C48009F3C47 /* AddressListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C12F935627A93C48009F3C47 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935727A93C48009F3C47 /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		C12F935827A93C48009F3C47 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935927A93C48009F3C47 /* AddressListCell.swift */,
+				C12F935A27A93C48009F3C47 /* AddressListCell.xib */,
+				C12F935B27A93C48009F3C47 /* SouthWestAddressCell.xib */,
+				C12F935C27A93C48009F3C47 /* SouthWestAddressCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C12F935D27A93C48009F3C47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935E27A93C48009F3C47 /* ValueObject */,
+				C12F936327A93C48009F3C47 /* Accessor */,
+				C12F936727A93C48009F3C47 /* Enum */,
+				C12F936927A93C48009F3C47 /* Service */,
+				C12F936F27A93C48009F3C47 /* RealmObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C12F935E27A93C48009F3C47 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				C12F935F27A93C48009F3C47 /* RealmModel */,
+				C12F936227A93C48009F3C47 /* CellContents.swift */,
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		C12F935F27A93C48009F3C47 /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				C12F936027A93C48009F3C47 /* AddressIdModel.swift */,
+				C12F936127A93C48009F3C47 /* AddressListModel.swift */,
+			);
+			path = RealmModel;
+			sourceTree = "<group>";
+		};
+		C12F936327A93C48009F3C47 /* Accessor */ = {
+			isa = PBXGroup;
+			children = (
+				C12F936427A93C48009F3C47 /* RealmOperator.swift */,
+				C12F936527A93C48009F3C47 /* Protocol */,
+			);
+			path = Accessor;
+			sourceTree = "<group>";
+		};
+		C12F936527A93C48009F3C47 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C12F936627A93C48009F3C47 /* RealmOperatorProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C12F936727A93C48009F3C47 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				C12F936827A93C48009F3C47 /* AddressType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		C12F936927A93C48009F3C47 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C12F936A27A93C48009F3C47 /* Protocol */,
+				C12F936D27A93C48009F3C47 /* AddressService.swift */,
+				C12F936E27A93C48009F3C47 /* SearchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C12F936A27A93C48009F3C47 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C12F936B27A93C48009F3C47 /* SearchServiceProtocol.swift */,
+				C12F936C27A93C48009F3C47 /* AddressServiceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C12F936F27A93C48009F3C47 /* RealmObject */ = {
+			isa = PBXGroup;
+			children = (
+				C12F937027A93C48009F3C47 /* AddressListObject.swift */,
+				C12F937127A93C48009F3C47 /* AddressIdObject.swift */,
+			);
+			path = RealmObject;
+			sourceTree = "<group>";
+		};
+		C12F939B27A93CA6009F3C47 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C12F939C27A93CA6009F3C47 /* Extension */,
+				C12F939F27A93CA6009F3C47 /* Const */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C12F939C27A93CA6009F3C47 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C12F939D27A93CA6009F3C47 /* UIViewController+TransitionCrossDissolve.swift */,
+				C12F939E27A93CA6009F3C47 /* UIButton+CAGradationLayer.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C12F939F27A93CA6009F3C47 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				C12F93A027A93CA6009F3C47 /* Const.swift */,
+				C12F93A127A93CA6009F3C47 /* Const+Int.swift */,
+				C12F93A227A93CA6009F3C47 /* Const+Word.swift */,
+			);
+			path = Const;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,8 +559,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C12F924F27A934B8009F3C47 /* Build configuration list for PBXNativeTarget "SearchAddress" */;
 			buildPhases = (
-				F98BAF0343E0DE6BA42F66D9 /* [CP] Check Pods Manifest.lock */,
 				C12F92F527A939B8009F3C47 /* R.sswift Run Script */,
+				F98BAF0343E0DE6BA42F66D9 /* [CP] Check Pods Manifest.lock */,
 				C12F923727A934B6009F3C47 /* Sources */,
 				C12F923827A934B6009F3C47 /* Frameworks */,
 				C12F923927A934B6009F3C47 /* Resources */,
@@ -157,7 +615,12 @@
 			files = (
 				C12F924B27A934B8009F3C47 /* LaunchScreen.storyboard in Resources */,
 				C12F924827A934B8009F3C47 /* Assets.xcassets in Resources */,
-				C12F924627A934B6009F3C47 /* Main.storyboard in Resources */,
+				C12F937A27A93C48009F3C47 /* AddressRegistrationViewController.xib in Resources */,
+				C12F938127A93C48009F3C47 /* MapViewController.xib in Resources */,
+				C12F937327A93C48009F3C47 /* HomeViewController.xib in Resources */,
+				C12F938D27A93C48009F3C47 /* SouthWestAddressCell.xib in Resources */,
+				C12F938627A93C48009F3C47 /* AddressListViewController.xib in Resources */,
+				C12F938C27A93C48009F3C47 /* AddressListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,24 +693,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12F924327A934B6009F3C47 /* ViewController.swift in Sources */,
+				C12F937427A93C48009F3C47 /* HomeViewController.swift in Sources */,
 				C12F923F27A934B6009F3C47 /* AppDelegate.swift in Sources */,
+				C12F937F27A93C48009F3C47 /* MapPresenter.swift in Sources */,
+				C12F939227A93C48009F3C47 /* RealmOperator.swift in Sources */,
 				C12F924127A934B6009F3C47 /* SceneDelegate.swift in Sources */,
+				C12F937C27A93C48009F3C47 /* AddressRegistrationProtocols.swift in Sources */,
+				C12F938827A93C48009F3C47 /* AddressListInteractor.swift in Sources */,
 				C12F92F727A93A62009F3C47 /* R.generated.swift in Sources */,
+				C12F939A27A93C48009F3C47 /* AddressIdObject.swift in Sources */,
+				C12F937E27A93C48009F3C47 /* MapInteractor.swift in Sources */,
+				C12F939827A93C48009F3C47 /* SearchService.swift in Sources */,
+				C12F939027A93C48009F3C47 /* AddressListModel.swift in Sources */,
+				C12F939527A93C48009F3C47 /* SearchServiceProtocol.swift in Sources */,
+				C12F937827A93C48009F3C47 /* AddressRegistrationRouter.swift in Sources */,
+				C12F939727A93C48009F3C47 /* AddressService.swift in Sources */,
+				C12F93A327A93CA6009F3C47 /* UIViewController+TransitionCrossDissolve.swift in Sources */,
+				C12F938427A93C48009F3C47 /* AddressListPresenter.swift in Sources */,
+				C12F937527A93C48009F3C47 /* HomeProtocols.swift in Sources */,
+				C12F93A727A93CA6009F3C47 /* Const+Word.swift in Sources */,
+				C12F939327A93C48009F3C47 /* RealmOperatorProtocol.swift in Sources */,
+				C12F937B27A93C48009F3C47 /* AddressRegistrationViewController.swift in Sources */,
+				C12F938927A93C48009F3C47 /* AddressListRouter.swift in Sources */,
+				C12F938527A93C48009F3C47 /* AddressListViewController.swift in Sources */,
+				C12F939627A93C48009F3C47 /* AddressServiceProtocol.swift in Sources */,
+				C12F937727A93C48009F3C47 /* HomeRouter.swift in Sources */,
+				C12F937227A93C48009F3C47 /* HomePresenter.swift in Sources */,
+				C12F938B27A93C48009F3C47 /* AddressListCell.swift in Sources */,
+				C12F939427A93C48009F3C47 /* AddressType.swift in Sources */,
+				C12F938A27A93C48009F3C47 /* RootRouter.swift in Sources */,
+				C12F937927A93C48009F3C47 /* AddressRegistrationPresenter.swift in Sources */,
+				C12F939927A93C48009F3C47 /* AddressListObject.swift in Sources */,
+				C12F93A527A93CA6009F3C47 /* Const.swift in Sources */,
+				C12F93A627A93CA6009F3C47 /* Const+Int.swift in Sources */,
+				C12F937627A93C48009F3C47 /* HomeInteractor.swift in Sources */,
+				C12F938727A93C48009F3C47 /* AddressListProtocol.swift in Sources */,
+				C12F938F27A93C48009F3C47 /* AddressIdModel.swift in Sources */,
+				C12F93A427A93CA6009F3C47 /* UIButton+CAGradationLayer.swift in Sources */,
+				C12F938227A93C48009F3C47 /* MapProtocols.swift in Sources */,
+				C12F937D27A93C48009F3C47 /* AddressRegistrationInteractor.swift in Sources */,
+				C12F939127A93C48009F3C47 /* CellContents.swift in Sources */,
+				C12F938E27A93C48009F3C47 /* SouthWestAddressCell.swift in Sources */,
+				C12F938027A93C48009F3C47 /* MapViewController.swift in Sources */,
+				C12F938327A93C48009F3C47 /* MapRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C12F924427A934B6009F3C47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C12F924527A934B6009F3C47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C12F924927A934B8009F3C47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -385,10 +879,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JMPUQTWUP7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SearchAddress/Info.plist;
+				INFOPLIST_FILE = SearchAddress/Resource/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -415,10 +909,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JMPUQTWUP7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SearchAddress/Info.plist;
+				INFOPLIST_FILE = SearchAddress/Resource/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
