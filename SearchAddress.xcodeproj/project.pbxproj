@@ -14,6 +14,7 @@
 		C12F924627A934B6009F3C47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12F924427A934B6009F3C47 /* Main.storyboard */; };
 		C12F924827A934B8009F3C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12F924727A934B8009F3C47 /* Assets.xcassets */; };
 		C12F924B27A934B8009F3C47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12F924927A934B8009F3C47 /* LaunchScreen.storyboard */; };
+		C12F92F727A93A62009F3C47 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F92F627A93A62009F3C47 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C12F924727A934B8009F3C47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12F924A27A934B8009F3C47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12F924C27A934B8009F3C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12F92F627A93A62009F3C47 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,10 @@
 		C12F923D27A934B6009F3C47 /* SearchAddress */ = {
 			isa = PBXGroup;
 			children = (
+				C12F92F627A93A62009F3C47 /* R.generated.swift */,
+				C12F924227A934B6009F3C47 /* ViewController.swift */,
 				C12F923E27A934B6009F3C47 /* AppDelegate.swift */,
 				C12F924027A934B6009F3C47 /* SceneDelegate.swift */,
-				C12F924227A934B6009F3C47 /* ViewController.swift */,
 				C12F924427A934B6009F3C47 /* Main.storyboard */,
 				C12F924727A934B8009F3C47 /* Assets.xcassets */,
 				C12F924927A934B8009F3C47 /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 			buildConfigurationList = C12F924F27A934B8009F3C47 /* Build configuration list for PBXNativeTarget "SearchAddress" */;
 			buildPhases = (
 				F98BAF0343E0DE6BA42F66D9 /* [CP] Check Pods Manifest.lock */,
+				C12F92F527A939B8009F3C47 /* R.sswift Run Script */,
 				C12F923727A934B6009F3C47 /* Sources */,
 				C12F923827A934B6009F3C47 /* Frameworks */,
 				C12F923927A934B6009F3C47 /* Resources */,
@@ -177,6 +181,26 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchAddress/Pods-SearchAddress-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C12F92F527A939B8009F3C47 /* R.sswift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "R.sswift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		F98BAF0343E0DE6BA42F66D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +233,7 @@
 				C12F924327A934B6009F3C47 /* ViewController.swift in Sources */,
 				C12F923F27A934B6009F3C47 /* AppDelegate.swift in Sources */,
 				C12F924127A934B6009F3C47 /* SceneDelegate.swift in Sources */,
+				C12F92F727A93A62009F3C47 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
