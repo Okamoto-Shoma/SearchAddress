@@ -66,7 +66,7 @@ extension MapPresenter: MapInteractorOutputProtocol {
             } else {
                 secondAddressText = "\(addressInformation.secondAddress?.description ?? Const.kEmpty)-\(addressInformation.thirdAddress?.description ?? Const.kEmpty)"
             }
-            firstAddressText = "\(addressInformation.address.displayName)\(addressInformation.firstAddress?.description == Const.kEmpty)"
+            firstAddressText = "\(addressInformation.address.displayName)\(addressInformation.firstAddress?.description ?? Const.kEmpty)"
             mapAddressText = "札幌市\(firstAddressText)-\(secondAddressText)"
         }
 

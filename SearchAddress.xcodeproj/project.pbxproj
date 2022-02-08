@@ -213,9 +213,9 @@
 		C12F932627A93C48009F3C47 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C12F932727A93C48009F3C47 /* Presenter */,
-				C12F932927A93C48009F3C47 /* View */,
 				C12F932C27A93C48009F3C47 /* Protocols */,
+				C12F932927A93C48009F3C47 /* View */,
+				C12F932727A93C48009F3C47 /* Presenter */,
 				C12F932E27A93C48009F3C47 /* Interactor */,
 				C12F933027A93C48009F3C47 /* Router */,
 			);
@@ -266,11 +266,11 @@
 		C12F933227A93C48009F3C47 /* AddressRegistration */ = {
 			isa = PBXGroup;
 			children = (
-				C12F933327A93C48009F3C47 /* Rotuer */,
-				C12F933527A93C48009F3C47 /* Presenter */,
-				C12F933727A93C48009F3C47 /* View */,
 				C12F933A27A93C48009F3C47 /* Protocols */,
+				C12F933727A93C48009F3C47 /* View */,
+				C12F933527A93C48009F3C47 /* Presenter */,
 				C12F933C27A93C48009F3C47 /* Interactor */,
+				C12F933327A93C48009F3C47 /* Rotuer */,
 			);
 			path = AddressRegistration;
 			sourceTree = "<group>";
@@ -319,10 +319,10 @@
 		C12F933E27A93C48009F3C47 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				C12F933F27A93C48009F3C47 /* Inateractor */,
-				C12F934127A93C48009F3C47 /* Presenter */,
-				C12F934327A93C48009F3C47 /* View */,
 				C12F934627A93C48009F3C47 /* Protocols */,
+				C12F934327A93C48009F3C47 /* View */,
+				C12F934127A93C48009F3C47 /* Presenter */,
+				C12F933F27A93C48009F3C47 /* Inateractor */,
 				C12F934827A93C48009F3C47 /* Router */,
 			);
 			path = Map;
@@ -372,9 +372,9 @@
 		C12F934A27A93C48009F3C47 /* AddressList */ = {
 			isa = PBXGroup;
 			children = (
-				C12F934B27A93C48009F3C47 /* Presenter */,
-				C12F934D27A93C48009F3C47 /* View */,
 				C12F935027A93C48009F3C47 /* Protocols */,
+				C12F934D27A93C48009F3C47 /* View */,
+				C12F934B27A93C48009F3C47 /* Presenter */,
 				C12F935227A93C48009F3C47 /* Interactor */,
 				C12F935427A93C48009F3C47 /* Router */,
 			);
@@ -433,8 +433,8 @@
 		C12F935827A93C48009F3C47 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				C12F935927A93C48009F3C47 /* AddressListCell.swift */,
 				C12F935A27A93C48009F3C47 /* AddressListCell.xib */,
+				C12F935927A93C48009F3C47 /* AddressListCell.swift */,
 				C12F935B27A93C48009F3C47 /* SouthWestAddressCell.xib */,
 				C12F935C27A93C48009F3C47 /* SouthWestAddressCell.swift */,
 			);
