@@ -1,7 +1,7 @@
 PODS:
-  - Cuckoo (1.7.1):
-    - Cuckoo/Swift (= 1.7.1)
-  - Cuckoo/Swift (1.7.1)
+  - Cuckoo (1.5.1):
+    - Cuckoo/Swift (= 1.5.1)
+  - Cuckoo/Swift (1.5.1)
   - R.swift (6.1.0):
     - R.swift.Library (~> 5.3.0)
   - R.swift.Library (5.3.0)
@@ -12,7 +12,7 @@ PODS:
     - Realm (= 10.19.0)
 
 DEPENDENCIES:
-  - Cuckoo (= 1.7.1)
+  - Cuckoo (= 1.5.1)
   - R.swift (= 6.1.0)
   - RealmSwift (= 10.19.0)
 
@@ -25,12 +25,12 @@ SPEC REPOS:
     - RealmSwift
 
 SPEC CHECKSUMS:
-  Cuckoo: 9e258d68137c411df47c6390f72901d5276b4f03
+  Cuckoo: 9124fe138270854903483c270370e6e7658fbc9b
   R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   Realm: 869ab2a7e3bdfa6bf06d8723251539f504e6f602
   RealmSwift: f1f51c4a02fe826e5cea623b5441992f06bdc942
 
-PODFILE CHECKSUM: 9315e6a63090ca664185dc606870bad8e50d6c8a
+PODFILE CHECKSUM: 3646514af33d57a511fedbf553c287cf97f75f66
 
 COCOAPODS: 1.11.2

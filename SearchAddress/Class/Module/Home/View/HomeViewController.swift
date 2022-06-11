@@ -54,6 +54,7 @@ final class HomeViewController: UIViewController {
 
 extension HomeViewController: HomeViewProtocol {
 
+    // TODO: 正直PrivateMethodでいい。今回はVIPERの学習ということで無理矢理presenterを介している
     /// デザインの適用
     func applyDesign() {
         DispatchQueue.main.async {
