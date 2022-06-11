@@ -90,4 +90,7 @@ fastlane/test_output
 # R.swift
 *.generated.swift
 
+# Cuckoo
+ReceptionistTests/GeneratedMocks.swift
+
 iOSInjectionProject/
