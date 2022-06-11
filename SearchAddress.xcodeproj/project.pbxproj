@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34C7DD214D77003BBA48544C /* Pods_SearchAddress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356DC524C35E1B55BC2E3F5E /* Pods_SearchAddress.framework */; };
+		658B9C5D2854AC06007A0107 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658B9C5C2854AC06007A0107 /* HomeViewControllerTests.swift */; };
 		C125CC0F28539EFC0046AA19 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125CC0E28539EDD0046AA19 /* GeneratedMocks.swift */; };
 		C125CC1628539F9A0046AA19 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125CC1528539F9A0046AA19 /* HomePresenterTests.swift */; };
 		C12F923F27A934B6009F3C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F923E27A934B6009F3C47 /* AppDelegate.swift */; };
@@ -79,6 +80,7 @@
 		356DC524C35E1B55BC2E3F5E /* Pods_SearchAddress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchAddress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F9BED3269981337F2BF571 /* Pods-SearchAddress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddress.debug.xcconfig"; path = "Target Support Files/Pods-SearchAddress/Pods-SearchAddress.debug.xcconfig"; sourceTree = "<group>"; };
 		6529EDEE2853491300ACE237 /* SearchAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		658B9C5C2854AC06007A0107 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		672E308E7EAD6D68BACD48A0 /* Pods-SearchAddressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddressTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchAddressTests/Pods-SearchAddressTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C125CC0E28539EDD0046AA19 /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		C125CC1528539F9A0046AA19 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
@@ -179,6 +181,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		658B9C5B2854ABF8007A0107 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				658B9C5C2854AC06007A0107 /* HomeViewControllerTests.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		C125CC0D28539EDD0046AA19 /* SearchAddressTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +209,7 @@
 		C125CC1328539F8E0046AA19 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				658B9C5B2854ABF8007A0107 /* View */,
 				C125CC1428539F8E0046AA19 /* Presenter */,
 			);
 			path = Home;
@@ -852,6 +863,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C125CC0F28539EFC0046AA19 /* GeneratedMocks.swift in Sources */,
+				658B9C5D2854AC06007A0107 /* HomeViewControllerTests.swift in Sources */,
 				C125CC1628539F9A0046AA19 /* HomePresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
