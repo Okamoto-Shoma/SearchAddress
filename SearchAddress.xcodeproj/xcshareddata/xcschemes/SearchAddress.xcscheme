@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES"
       onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "killall Simulator&#10;defaults write com.apple.iphonesimulator ConnectHardwareKeyboard -bool false&#10;">
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -46,6 +55,16 @@
                BlueprintIdentifier = "6529EDED2853491300ACE237"
                BuildableName = "SearchAddressTests.xctest"
                BlueprintName = "SearchAddressTests"
+               ReferencedContainer = "container:SearchAddress.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "65F4AA732854F93600A27F9F"
+               BuildableName = "SearchAddressUITests.xctest"
+               BlueprintName = "SearchAddressUITests"
                ReferencedContainer = "container:SearchAddress.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -14,8 +14,12 @@ target 'SearchAddress' do
 end
 
 target 'SearchAddressTests' do
-  shared_pods
+  inherit! :search_paths
   pod 'Cuckoo', '1.5.1'
+end
+
+target 'SearchAddressUITests' do
+  shared_pods
 end
 
 post_install do |installer|
@@ -30,7 +34,7 @@ post_install do |installer|
 
         # ビルド設定を追加
         pods_target.build_configurations.each do |config|
-            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
         end
     end
 end
