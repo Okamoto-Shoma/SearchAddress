@@ -70,5 +70,7 @@ extension HomeViewController: HomeViewProtocol {
                 $0.layer.cornerRadius = CGFloat(Const.Int.Button.cornerRadius15)
             }
         }
+
+        self.applyText()
     }
 }

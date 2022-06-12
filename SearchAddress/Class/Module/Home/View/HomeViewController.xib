@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="PizzaConsumerAddress" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="SearchAddress" customModuleProvider="target">
             <connections>
                 <outlet property="addressListButton" destination="FeM-4P-Z4O" id="JtQ-3x-7L1"/>
                 <outlet property="addressListLabel" destination="S2b-UI-kgN" id="U7E-Mh-EtF"/>
@@ -25,9 +25,10 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeM-4P-Z4O">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeM-4P-Z4O" userLabel="Button">
                     <rect key="frame" x="41.5" y="493" width="331" height="248"/>
                     <color key="backgroundColor" name="button_color"/>
+                    <accessibility key="accessibilityConfiguration" identifier="AddressListButton"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="FeM-4P-Z4O" secondAttribute="height" multiplier="2:1.5" id="IzA-Mn-3XS"/>
                     </constraints>
@@ -45,6 +46,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jK6-WA-TJn">
                     <rect key="frame" x="41.5" y="155" width="331" height="248"/>
                     <color key="backgroundColor" name="button_color"/>
+                    <accessibility key="accessibilityConfiguration" identifier="RegistAddressButton"/>
                     <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain"/>
@@ -54,12 +56,14 @@
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新規登録" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwh-sg-qaE">
                     <rect key="frame" x="126.5" y="255" width="161" height="48"/>
+                    <accessibility key="accessibilityConfiguration" identifier="RegistAddressLabel"/>
                     <fontDescription key="fontDescription" type="system" pointSize="40"/>
                     <color key="textColor" name="button_label_color"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="住所一覧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2b-UI-kgN">
                     <rect key="frame" x="126.5" y="593" width="161" height="48"/>
+                    <accessibility key="accessibilityConfiguration" identifier="AddressListLabel"/>
                     <fontDescription key="fontDescription" type="system" pointSize="40"/>
                     <color key="textColor" name="button_label_color"/>
                     <nil key="highlightedColor"/>

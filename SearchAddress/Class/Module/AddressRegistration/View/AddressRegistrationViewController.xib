@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressRegistrationViewController" customModule="PizzaConsumerAddress" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddressRegistrationViewController" customModule="SearchAddress" customModuleProvider="target">
             <connections>
                 <outlet property="buildingNameTextField" destination="TYQ-2g-exv" id="jjU-cO-qyO"/>
                 <outlet property="firstNameTextField" destination="I0k-kf-ttX" id="pAI-BO-pPq"/>
@@ -31,6 +31,7 @@
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="氏名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvS-Up-LGh">
                             <rect key="frame" x="0.0" y="0.0" width="35" height="20.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="NameLabel"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -43,12 +44,14 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnY-Dk-x8e">
                                             <rect key="frame" x="0.0" y="0.0" width="17.5" height="34"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="FirstNameLabel"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I0k-kf-ttX">
                                             <rect key="frame" x="25.5" y="0.0" width="83" height="34"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="FirstNameTextField"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             <connections>
@@ -63,12 +66,14 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HX-Le-OJA">
                                             <rect key="frame" x="0.0" y="0.0" width="17.5" height="34"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="LastNameLabel"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PLv-Ap-lNB">
                                             <rect key="frame" x="25.5" y="0.0" width="82.5" height="34"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="LastNameTextField"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             <connections>
@@ -94,6 +99,7 @@
                 <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UvQ-dG-vnl">
                     <rect key="frame" x="47" y="273.5" width="320" height="179"/>
                     <color key="backgroundColor" name="background_color"/>
+                    <accessibility key="accessibilityConfiguration" identifier="PickerView"/>
                     <connections>
                         <outlet property="dataSource" destination="-1" id="Oaz-Ow-8QY"/>
                         <outlet property="delegate" destination="-1" id="dXj-Dq-khz"/>
@@ -165,6 +171,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTi-0F-XgW">
                     <rect key="frame" x="103.5" y="774.5" width="207" height="50"/>
                     <color key="backgroundColor" name="button_gradation_start_color"/>
+                    <accessibility key="accessibilityConfiguration" identifier="RegistButton"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="QTi-0F-XgW" secondAttribute="height" multiplier="5:1.2" id="gvv-va-fCo"/>
                     </constraints>

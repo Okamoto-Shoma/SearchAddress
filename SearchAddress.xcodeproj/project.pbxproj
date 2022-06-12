@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		34C7DD214D77003BBA48544C /* Pods_SearchAddress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356DC524C35E1B55BC2E3F5E /* Pods_SearchAddress.framework */; };
+		650DCA0D2856282300BE377C /* AddressRegistrationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCA0C2856282300BE377C /* AddressRegistrationViewControllerTests.swift */; };
+		650DCA10285628AC00BE377C /* AddressListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DCA0F285628AC00BE377C /* AddressListViewControllerTests.swift */; };
+		65F4AA812854FA5B00A27F9F /* SearchAddressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F4AA802854FA5B00A27F9F /* SearchAddressUITests.swift */; };
+		6DD9861AFAEA0593CDBD8F62 /* libPods-SearchAddressTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9198766AC3DA148A44F01AD /* libPods-SearchAddressTests.a */; };
 		C125CC0F28539EFC0046AA19 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125CC0E28539EDD0046AA19 /* GeneratedMocks.swift */; };
 		C125CC1628539F9A0046AA19 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C125CC1528539F9A0046AA19 /* HomePresenterTests.swift */; };
 		C12F923F27A934B6009F3C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F923E27A934B6009F3C47 /* AppDelegate.swift */; };
@@ -61,11 +65,18 @@
 		C12F93A527A93CA6009F3C47 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F93A027A93CA6009F3C47 /* Const.swift */; };
 		C12F93A627A93CA6009F3C47 /* Const+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F93A127A93CA6009F3C47 /* Const+Int.swift */; };
 		C12F93A727A93CA6009F3C47 /* Const+Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12F93A227A93CA6009F3C47 /* Const+Word.swift */; };
-		C7AA699C7F543374D5404DB0 /* Pods_SearchAddressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72E1BD7F6EECB169D6BDD7D /* Pods_SearchAddressTests.framework */; };
+		CC72BE154FC5DEDBD3B50A55 /* Pods_SearchAddressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5213812F03EFAAA87CEE8C08 /* Pods_SearchAddressUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		6529EDF22853491300ACE237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12F923327A934B6009F3C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12F923A27A934B6009F3C47;
+			remoteInfo = SearchAddress;
+		};
+		65F4AA7A2854F93600A27F9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C12F923327A934B6009F3C47 /* Project object */;
 			proxyType = 1;
@@ -78,8 +89,15 @@
 		1EFD66AE683E3C50CC576B2E /* Pods-SearchAddress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddress.release.xcconfig"; path = "Target Support Files/Pods-SearchAddress/Pods-SearchAddress.release.xcconfig"; sourceTree = "<group>"; };
 		356DC524C35E1B55BC2E3F5E /* Pods_SearchAddress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchAddress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F9BED3269981337F2BF571 /* Pods-SearchAddress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddress.debug.xcconfig"; path = "Target Support Files/Pods-SearchAddress/Pods-SearchAddress.debug.xcconfig"; sourceTree = "<group>"; };
+		5213812F03EFAAA87CEE8C08 /* Pods_SearchAddressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchAddressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650DCA0C2856282300BE377C /* AddressRegistrationViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressRegistrationViewControllerTests.swift; sourceTree = "<group>"; };
+		650DCA0F285628AC00BE377C /* AddressListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListViewControllerTests.swift; sourceTree = "<group>"; };
 		6529EDEE2853491300ACE237 /* SearchAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F4AA742854F93600A27F9F /* SearchAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F4AA802854FA5B00A27F9F /* SearchAddressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressUITests.swift; sourceTree = "<group>"; };
 		672E308E7EAD6D68BACD48A0 /* Pods-SearchAddressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddressTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchAddressTests/Pods-SearchAddressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A43CF2361C7CEDC8A282843 /* Pods-SearchAddressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddressUITests.release.xcconfig"; path = "Target Support Files/Pods-SearchAddressUITests/Pods-SearchAddressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83F510792BC926D918B3C909 /* Pods-SearchAddressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddressUITests.debug.xcconfig"; path = "Target Support Files/Pods-SearchAddressUITests/Pods-SearchAddressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C125CC0E28539EDD0046AA19 /* GeneratedMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
 		C125CC1528539F9A0046AA19 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
 		C12F923B27A934B6009F3C47 /* SearchAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,8 +153,8 @@
 		C12F93A027A93CA6009F3C47 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		C12F93A127A93CA6009F3C47 /* Const+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Const+Int.swift"; sourceTree = "<group>"; };
 		C12F93A227A93CA6009F3C47 /* Const+Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Const+Word.swift"; sourceTree = "<group>"; };
+		C9198766AC3DA148A44F01AD /* libPods-SearchAddressTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SearchAddressTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA13C0587F4FA43E7DCDE634 /* Pods-SearchAddressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchAddressTests.release.xcconfig"; path = "Target Support Files/Pods-SearchAddressTests/Pods-SearchAddressTests.release.xcconfig"; sourceTree = "<group>"; };
-		E72E1BD7F6EECB169D6BDD7D /* Pods_SearchAddressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchAddressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +162,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7AA699C7F543374D5404DB0 /* Pods_SearchAddressTests.framework in Frameworks */,
+				6DD9861AFAEA0593CDBD8F62 /* libPods-SearchAddressTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F4AA712854F93600A27F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC72BE154FC5DEDBD3B50A55 /* Pods_SearchAddressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				356DC524C35E1B55BC2E3F5E /* Pods_SearchAddress.framework */,
-				E72E1BD7F6EECB169D6BDD7D /* Pods_SearchAddressTests.framework */,
+				C9198766AC3DA148A44F01AD /* libPods-SearchAddressTests.a */,
+				5213812F03EFAAA87CEE8C08 /* Pods_SearchAddressUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,8 +202,44 @@
 				1EFD66AE683E3C50CC576B2E /* Pods-SearchAddress.release.xcconfig */,
 				672E308E7EAD6D68BACD48A0 /* Pods-SearchAddressTests.debug.xcconfig */,
 				DA13C0587F4FA43E7DCDE634 /* Pods-SearchAddressTests.release.xcconfig */,
+				83F510792BC926D918B3C909 /* Pods-SearchAddressUITests.debug.xcconfig */,
+				6A43CF2361C7CEDC8A282843 /* Pods-SearchAddressUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		650DCA0B2856280B00BE377C /* AddressRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				650DCA0C2856282300BE377C /* AddressRegistrationViewControllerTests.swift */,
+			);
+			path = AddressRegistration;
+			sourceTree = "<group>";
+		};
+		650DCA0E2856289E00BE377C /* AddressList */ = {
+			isa = PBXGroup;
+			children = (
+				650DCA0F285628AC00BE377C /* AddressListViewControllerTests.swift */,
+			);
+			path = AddressList;
+			sourceTree = "<group>";
+		};
+		65F4AA752854F93600A27F9F /* SearchAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65F4AA7F2854FA4100A27F9F /* Home */,
+				650DCA0B2856280B00BE377C /* AddressRegistration */,
+				650DCA0E2856289E00BE377C /* AddressList */,
+			);
+			path = SearchAddressUITests;
+			sourceTree = "<group>";
+		};
+		65F4AA7F2854FA4100A27F9F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65F4AA802854FA5B00A27F9F /* SearchAddressUITests.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		C125CC0D28539EDD0046AA19 /* SearchAddressTests */ = {
@@ -217,6 +280,7 @@
 			children = (
 				C12F923D27A934B6009F3C47 /* SearchAddress */,
 				C125CC0D28539EDD0046AA19 /* SearchAddressTests */,
+				65F4AA752854F93600A27F9F /* SearchAddressUITests */,
 				C12F923C27A934B6009F3C47 /* Products */,
 				53E6CCDDBA8E08D3C32E0984 /* Pods */,
 				085853ECE2B9802F776CE0C3 /* Frameworks */,
@@ -228,6 +292,7 @@
 			children = (
 				C12F923B27A934B6009F3C47 /* SearchAddress.app */,
 				6529EDEE2853491300ACE237 /* SearchAddressTests.xctest */,
+				65F4AA742854F93600A27F9F /* SearchAddressUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -631,7 +696,6 @@
 				6529EDEA2853491300ACE237 /* Sources */,
 				6529EDEB2853491300ACE237 /* Frameworks */,
 				6529EDEC2853491300ACE237 /* Resources */,
-				662110C68503F52C67BD7B7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -642,6 +706,26 @@
 			productName = SearchAddressTests;
 			productReference = 6529EDEE2853491300ACE237 /* SearchAddressTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65F4AA732854F93600A27F9F /* SearchAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F4AA7E2854F93600A27F9F /* Build configuration list for PBXNativeTarget "SearchAddressUITests" */;
+			buildPhases = (
+				C274A4125BBD4F059374C5E8 /* [CP] Check Pods Manifest.lock */,
+				65F4AA702854F93600A27F9F /* Sources */,
+				65F4AA712854F93600A27F9F /* Frameworks */,
+				65F4AA722854F93600A27F9F /* Resources */,
+				D1FCC884BC865A8E8090108D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F4AA7B2854F93600A27F9F /* PBXTargetDependency */,
+			);
+			name = SearchAddressUITests;
+			productName = SearchAddressUITests;
+			productReference = 65F4AA742854F93600A27F9F /* SearchAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		C12F923A27A934B6009F3C47 /* SearchAddress */ = {
 			isa = PBXNativeTarget;
@@ -677,6 +761,10 @@
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = C12F923A27A934B6009F3C47;
 					};
+					65F4AA732854F93600A27F9F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C12F923A27A934B6009F3C47;
+					};
 					C12F923A27A934B6009F3C47 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -697,12 +785,20 @@
 			targets = (
 				C12F923A27A934B6009F3C47 /* SearchAddress */,
 				6529EDED2853491300ACE237 /* SearchAddressTests */,
+				65F4AA732854F93600A27F9F /* SearchAddressUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6529EDEC2853491300ACE237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F4AA722854F93600A27F9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,23 +838,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchAddress/Pods-SearchAddress-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		662110C68503F52C67BD7B7E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchAddressTests/Pods-SearchAddressTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchAddressTests/Pods-SearchAddressTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchAddressTests/Pods-SearchAddressTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A9CADC83D53A1E28B5549E60 /* [CP] Check Pods Manifest.lock */ = {
@@ -822,6 +901,45 @@
 			shellPath = /bin/sh;
 			shellScript = "OUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\n\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n";
 		};
+		C274A4125BBD4F059374C5E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchAddressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1FCC884BC865A8E8090108D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchAddressUITests/Pods-SearchAddressUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchAddressUITests/Pods-SearchAddressUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchAddressUITests/Pods-SearchAddressUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F98BAF0343E0DE6BA42F66D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -853,6 +971,16 @@
 			files = (
 				C125CC0F28539EFC0046AA19 /* GeneratedMocks.swift in Sources */,
 				C125CC1628539F9A0046AA19 /* HomePresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F4AA702854F93600A27F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650DCA0D2856282300BE377C /* AddressRegistrationViewControllerTests.swift in Sources */,
+				650DCA10285628AC00BE377C /* AddressListViewControllerTests.swift in Sources */,
+				65F4AA812854FA5B00A27F9F /* SearchAddressUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -914,6 +1042,11 @@
 			target = C12F923A27A934B6009F3C47 /* SearchAddress */;
 			targetProxy = 6529EDF22853491300ACE237 /* PBXContainerItemProxy */;
 		};
+		65F4AA7B2854F93600A27F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12F923A27A934B6009F3C47 /* SearchAddress */;
+			targetProxy = 65F4AA7A2854F93600A27F9F /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -944,6 +1077,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kakeshin.SearchAddressTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -977,6 +1111,55 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchAddress.app/SearchAddress";
+			};
+			name = Release;
+		};
+		65F4AA7C2854F93600A27F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F510792BC926D918B3C909 /* Pods-SearchAddressUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V856RZTXN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kakeshin.SearchAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = SearchAddress;
+			};
+			name = Debug;
+		};
+		65F4AA7D2854F93600A27F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A43CF2361C7CEDC8A282843 /* Pods-SearchAddressUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V856RZTXN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kakeshin.SearchAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = SearchAddress;
 			};
 			name = Release;
 		};
@@ -1105,12 +1288,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JMPUQTWUP7;
-				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SearchAddress/Resource/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1119,6 +1302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shomaokamoto.SearchAddress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1136,12 +1320,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JMPUQTWUP7;
-				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SearchAddress/Resource/Info.plist;
 				INFOPLIST_KEY_NSMainNibFile = HomeViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1150,6 +1334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.shomaokamoto.SearchAddress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1166,6 +1351,15 @@
 			buildConfigurations = (
 				6529EDF52853491300ACE237 /* Debug */,
 				6529EDF62853491300ACE237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		65F4AA7E2854F93600A27F9F /* Build configuration list for PBXNativeTarget "SearchAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F4AA7C2854F93600A27F9F /* Debug */,
+				65F4AA7D2854F93600A27F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
